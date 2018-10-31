@@ -1,4 +1,4 @@
-# DILS2018_Tutorials
+# DILS2018 Tutorial on Knowledge Graphs
 
 ## Knowledge Graphs 
 
