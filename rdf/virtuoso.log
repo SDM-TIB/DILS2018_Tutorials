@@ -1,0 +1,101 @@
+
+		Fri Nov 16 2018
+16:54:19 { Loading plugin 1: Type `plain', file `wikiv' in `/usr/local/virtuoso-opensource/lib/virtuoso/hosting'
+16:54:19   WikiV version 0.6 from OpenLink Software
+16:54:19   Support functions for WikiV collaboration tool
+16:54:19   SUCCESS plugin 1: loaded from /usr/local/virtuoso-opensource/lib/virtuoso/hosting/wikiv.so }
+16:54:19 { Loading plugin 2: Type `plain', file `mediawiki' in `/usr/local/virtuoso-opensource/lib/virtuoso/hosting'
+16:54:19   MediaWiki version 0.1 from OpenLink Software
+16:54:19   Support functions for MediaWiki collaboration tool
+16:54:19   SUCCESS plugin 2: loaded from /usr/local/virtuoso-opensource/lib/virtuoso/hosting/mediawiki.so }
+16:54:19 { Loading plugin 3: Type `plain', file `creolewiki' in `/usr/local/virtuoso-opensource/lib/virtuoso/hosting'
+16:54:19   CreoleWiki version 0.1 from OpenLink Software
+16:54:19   Support functions for CreoleWiki collaboration tool
+16:54:19   SUCCESS plugin 3: loaded from /usr/local/virtuoso-opensource/lib/virtuoso/hosting/creolewiki.so }
+16:54:19 OpenLink Virtuoso Universal Server
+16:54:19 Version 07.20.3229-pthreads for Linux as of Oct 22 2018
+16:54:19 uses parts of OpenSSL, PCRE, Html Tidy
+16:54:21 SQL Optimizer enabled (max 1000 layouts)
+16:54:21 Compiler unit is timed at 0.000313 msec
+16:54:22 Checkpoint started
+16:54:22 Roll forward started
+16:54:22 Roll forward complete
+16:54:23 Checkpoint started
+16:54:23 Checkpoint finished, log reused
+16:54:23 Checkpoint started
+16:54:23 Checkpoint finished, log reused
+16:54:23 Checkpoint started
+16:54:23 Checkpoint finished, log reused
+16:54:23 Checkpoint started
+16:54:23 Checkpoint finished, log reused
+16:54:23 Checkpoint started
+16:54:23 Checkpoint finished, log reused
+16:54:23 PL LOG: Installing Virtuoso Conductor version 1.00.8783 (DAV)
+16:54:23 PL LOG: Installing with dependencies Virtuoso Conductor version 1.00.8783/2018-10-22 12:56 (DAV)
+16:54:24 Checkpoint started
+16:54:24 Checkpoint finished, log reused
+16:54:25 Checkpoint started
+16:54:25 Checkpoint finished, log reused
+16:54:25 PL LOG: Installation with dependencies complete
+16:54:25 Checkpoint started
+16:54:25 Checkpoint finished, log reused
+16:54:25 HTTP/WebDAV server online at 8890
+16:54:25 Server online at 1111 (pid 18)
+16:54:25 Server received signal 15
+16:54:25 Initiating quick shutdown
+16:54:25 Server shutdown complete
+
+		Fri Nov 16 2018
+16:54:25 { Loading plugin 1: Type `plain', file `wikiv' in `/usr/local/virtuoso-opensource/lib/virtuoso/hosting'
+16:54:25   WikiV version 0.6 from OpenLink Software
+16:54:25   Support functions for WikiV collaboration tool
+16:54:25   SUCCESS plugin 1: loaded from /usr/local/virtuoso-opensource/lib/virtuoso/hosting/wikiv.so }
+16:54:25 { Loading plugin 2: Type `plain', file `mediawiki' in `/usr/local/virtuoso-opensource/lib/virtuoso/hosting'
+16:54:25   MediaWiki version 0.1 from OpenLink Software
+16:54:25   Support functions for MediaWiki collaboration tool
+16:54:25   SUCCESS plugin 2: loaded from /usr/local/virtuoso-opensource/lib/virtuoso/hosting/mediawiki.so }
+16:54:25 { Loading plugin 3: Type `plain', file `creolewiki' in `/usr/local/virtuoso-opensource/lib/virtuoso/hosting'
+16:54:25   CreoleWiki version 0.1 from OpenLink Software
+16:54:25   Support functions for CreoleWiki collaboration tool
+16:54:25   SUCCESS plugin 3: loaded from /usr/local/virtuoso-opensource/lib/virtuoso/hosting/creolewiki.so }
+16:54:25 OpenLink Virtuoso Universal Server
+16:54:25 Version 07.20.3229-pthreads for Linux as of Oct 22 2018
+16:54:25 uses parts of OpenSSL, PCRE, Html Tidy
+16:54:27 Database version 3126
+16:54:27 SQL Optimizer enabled (max 1000 layouts)
+16:54:28 Compiler unit is timed at 0.000122 msec
+16:54:29 Roll forward started
+16:54:29 Roll forward complete
+16:54:29 Checkpoint started
+16:54:29 Checkpoint finished, log reused
+16:54:29 HTTP/WebDAV server online at 8890
+16:54:29 Server online at 1111 (pid 99)
+16:54:29 Server received signal 15
+16:54:29 Initiating quick shutdown
+16:54:29 Server shutdown complete
+
+		Fri Nov 16 2018
+16:54:29 { Loading plugin 1: Type `plain', file `wikiv' in `/usr/local/virtuoso-opensource/lib/virtuoso/hosting'
+16:54:29   WikiV version 0.6 from OpenLink Software
+16:54:29   Support functions for WikiV collaboration tool
+16:54:29   SUCCESS plugin 1: loaded from /usr/local/virtuoso-opensource/lib/virtuoso/hosting/wikiv.so }
+16:54:29 { Loading plugin 2: Type `plain', file `mediawiki' in `/usr/local/virtuoso-opensource/lib/virtuoso/hosting'
+16:54:29   MediaWiki version 0.1 from OpenLink Software
+16:54:29   Support functions for MediaWiki collaboration tool
+16:54:29   SUCCESS plugin 2: loaded from /usr/local/virtuoso-opensource/lib/virtuoso/hosting/mediawiki.so }
+16:54:29 { Loading plugin 3: Type `plain', file `creolewiki' in `/usr/local/virtuoso-opensource/lib/virtuoso/hosting'
+16:54:29   CreoleWiki version 0.1 from OpenLink Software
+16:54:29   Support functions for CreoleWiki collaboration tool
+16:54:29   SUCCESS plugin 3: loaded from /usr/local/virtuoso-opensource/lib/virtuoso/hosting/creolewiki.so }
+16:54:29 OpenLink Virtuoso Universal Server
+16:54:29 Version 07.20.3229-pthreads for Linux as of Oct 22 2018
+16:54:29 uses parts of OpenSSL, PCRE, Html Tidy
+16:54:31 Database version 3126
+16:54:31 SQL Optimizer enabled (max 1000 layouts)
+16:54:32 Compiler unit is timed at 0.000125 msec
+16:54:32 Roll forward started
+16:54:32 Roll forward complete
+16:54:32 Checkpoint started
+16:54:32 Checkpoint finished, log reused
+16:54:32 HTTP/WebDAV server online at 8890
+16:54:32 Server online at 1111 (pid 174)

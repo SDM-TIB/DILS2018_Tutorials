@@ -40,6 +40,17 @@ services:
       - "1112:1111"
     networks:
       - dils_2018
+  dils_2018_jupyter:
+    image: asakor/dils_2018_jupyter:latest
+    hostname: dils_2018_jupyter
+    container_name: dils_2018_jupyter
+    domainname: dils_2018
+    environment:
+      - PASSWORD=dils2018
+    ports:
+      - "8888:8888"
+    networks:
+      - dils_2018
 
       
 
