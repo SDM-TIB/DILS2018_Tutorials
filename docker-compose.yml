@@ -25,7 +25,6 @@ services:
       - ./envfile.env
     depends_on:
       - dils_2018_kg
-    command: ["/app/wait-for-it.sh", "dils_2018_kg:1111", "--", "python3", "/app/service.py"]
     networks:
       - dils_2018
 
