@@ -15,7 +15,7 @@
 						rml:referenceFormulation ql:CSV 
 						];
 	rr:subjectMap [
-		rr:template "http://project-iasis.eu/SideEffect/{CUI}";
+		rr:template "http://project-iasis.eu/SideEffect/{}";
 		rr:class iasis:SideEffect
 	];
 	rr:predicateObjectMap [
@@ -33,7 +33,7 @@
 	rr:predicateObjectMap [
 		rr:predicate owl:sameAs;
 		rr:objectMap [
-			rr:template "{DBpedia_URI}";
+			rr:template "{}";
 		]
 	];
 	rr:predicateObjectMap [
@@ -48,7 +48,7 @@
 						rml:referenceFormulation ql:CSV 
 						];
 	rr:subjectMap [
-		rr:template "http://project-iasis.eu/Annotation/{HPOID}";
+		rr:template "http://project-iasis.eu/Annotation/{}";
 		rr:class iasis:Annotation
 	];
 	rr:predicateObjectMap [
