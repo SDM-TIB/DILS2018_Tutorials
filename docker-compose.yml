@@ -1,0 +1,49 @@
+version: "2"
+services:
+  dils_2018_tutorial:
+    image: asakor/dils_2018_tutorial_image:latest
+    hostname: dils_2018_tutorial
+    container_name: dils_2018_tutorial
+    domainname: dils_2018
+    volumes:
+      - ./data:/tutorial/data
+    depends_on:
+      - dils_2018_kg
+    networks:
+      - dils_2018
+
+  semantic-enrichment:
+    image: asakor/semantic-enrichment:latest
+    hostname: semantic-enrichment
+    container_name: dils_2018_semantic_enrichment
+    domainname: dils_2018
+    volumes:
+      - ./data:/app/data
+      - ./rdf/output:/data/output
+      - ./mappings:/app/mappings
+    env_file:
+      - ./envfile.env
+    depends_on:
+      - dils_2018_kg
+    command: ["/app/wait-for-it.sh", "dils_2018_kg:1111", "--", "python3", "/app/service.py"]
+    networks:
+      - dils_2018
+
+  dils_2018_kg:
+    image: kemele/virtuoso:7-stable
+    hostname: dils_2018_kg
+    container_name: dils_2018_kg
+    domainname: dils_2018
+    volumes:
+      - ./rdf:/data
+    ports:
+      - "11381:8890"
+      - "1112:1111"
+    networks:
+      - dils_2018
+
+      
+
+networks:
+  dils_2018:
+    external: true

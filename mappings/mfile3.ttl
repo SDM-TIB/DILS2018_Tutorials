@@ -1,0 +1,65 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rev: <http://purl.org/stuff/rev#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix base: <http://tib.de/ontario/mapping#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix iasis: <http://project-iasis.eu/vocab/> .
+
+<#Class1>
+	rml:logicalSource [ rml:source "/app/data/sideEffects.csv";
+						rml:referenceFormulation ql:CSV 
+						];
+	rr:subjectMap [
+		rr:template "http://project-iasis.eu/SideEffect/{CUI}";
+		rr:class iasis:SideEffect
+	];
+	rr:predicateObjectMap [
+		rr:predicate iasis:sideEffectLabel;
+		rr:objectMap [
+			rml:reference "Name";
+		]
+	];
+	rr:predicateObjectMap [
+		rr:predicate iasis:sideEffectCuiID;
+		rr:objectMap [
+			rml:reference "CUI";
+		]
+	];
+	rr:predicateObjectMap [
+		rr:predicate owl:sameAs;
+		rr:objectMap [
+			rr:template "{DBpedia_URI}";
+		]
+	];
+	rr:predicateObjectMap [
+		rr:predicate iasis:hasAnnotation;
+		rr:objectMap [
+			rr:parentTriplesMap <#Annotation>
+		]
+	].
+
+<#Annotation>
+	rml:logicalSource [ rml:source "/app/data/sideEffects.csv";
+						rml:referenceFormulation ql:CSV 
+						];
+	rr:subjectMap [
+		rr:template "http://project-iasis.eu/Annotation/{HPOID}";
+		rr:class iasis:Annotation
+	];
+	rr:predicateObjectMap [
+		rr:predicate iasis:annID;
+		rr:objectMap [ 
+			rml:reference "HPOID" 
+		]
+	];
+	rr:predicateObjectMap [
+		rr:predicate iasis:provenance;
+		rr:objectMap [
+			rr:template "http://project-iasis.eu/SourceName/HPO"
+		]
+	].	
