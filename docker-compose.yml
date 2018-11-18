@@ -29,7 +29,7 @@ services:
       - dils_2018
 
   dils_2018_kg:
-    image: kemele/virtuoso:7-stable
+    image: stain/virtuoso
     hostname: dils_2018_kg
     container_name: dils_2018_kg
     domainname: dils_2018
