@@ -8,4 +8,4 @@
 
 ## Semantic Integration
 
-https://docs.google.com/presentation/d/1EdAMmcp1cQouHXBVqjbKA8Ol5wIqN0fMkwo7Rd8Ks_Y/edit#slide=id.p3
+https://docs.google.com/presentation/d/1x98ayWGj72FjFdGLrYwn9N50v0dhNOdGp6W_i6JjiiU/edit?usp=sharing
